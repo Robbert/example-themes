@@ -1,0 +1,59 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Jul 2021 07:07:19 GMT
+ */
+
+:root {
+  --amsterdam-small-line-height: 18px;
+  --amsterdam-small-font-size: 14px;
+  --amsterdam-list-item-margin-block-end: 8px;
+  --amsterdam-paragraph-margin-block-end: 0;
+  --amsterdam-paragraph-line-height: 22px;
+  --amsterdam-paragraph-font-size: 16px;
+  --amsterdam-heading-6-margin-block-end: 0;
+  --amsterdam-heading-6-line-height: 20px;
+  --amsterdam-heading-6-font-size: 16px;
+  --amsterdam-heading-5-margin-block-end: 8px;
+  --amsterdam-heading-5-line-height: 25px;
+  --amsterdam-heading-5-font-size: 18px;
+  --amsterdam-heading-4-margin-block-end: 8px;
+  --amsterdam-heading-4-line-height: 25px;
+  --amsterdam-heading-4-font-size: 18px;
+  --amsterdam-heading-3-margin-block-end: 8px;
+  --amsterdam-heading-3-line-height: 28px;
+  --amsterdam-heading-3-font-size: 20px;
+  --amsterdam-heading-2-margin-block-end: 8px;
+  --amsterdam-heading-2-line-height: 28px;
+  --amsterdam-heading-2-font-size: 20px;
+  --amsterdam-heading-1-margin-block-end: 0;
+  --amsterdam-heading-1-line-height: 30px;
+  --amsterdam-heading-1-font-size: 24px;
+  --amsterdam-heading-font-weight: 700;
+  --amsterdam-document-line-height: 22px;
+  --amsterdam-document-font-weight: 400;
+  --amsterdam-color-lightblue-50: hsl(200 100% 46%);
+  --amsterdam-color-lightgreen-40: hsl(66 100% 41%);
+  --amsterdam-color-orange-50: hsl(34 100% 50%);
+  --amsterdam-color-pink-50: hsl(326 100% 45%);
+  --amsterdam-color-purple-30: hsl(315 100% 31%);
+  --amsterdam-color-amber-50: hsl(46 99% 54%);
+  --amsterdam-color-green-30: hsl(143 100% 31%);
+  --amsterdam-color-gray-100: hsl(0 0% 0%);
+  --amsterdam-color-gray-95: hsl(0 0% 96%);
+  --amsterdam-color-gray-90: hsl(0 0% 90%);
+  --amsterdam-color-gray-70: hsl(0 0% 71%);
+  --amsterdam-color-gray-50: hsl(0 0% 46%);
+  --amsterdam-color-gray-20: hsl(0 0% 20%);
+  --amsterdam-color-gray-0: hsl(0 0% 0%);
+  --amsterdam-color-black: hsl(0 0% 0%);
+  --amsterdam-color-white: hsl(0 0% 100%);
+  --amsterdam-color-blue-30: hsl(213 100% 30%);
+  --amsterdam-color-blue-25: hsl(212 100% 24%);
+  --amsterdam-color-red-50: hsl(0 100% 46%);
+  --amsterdam-color-red-40: hsl(0 100% 37%);
+  --amsterdam-document-color: var(--amsterdam-color-gray-0);
+  --amsterdam-focus-outline-color: var(--amsterdam-color-amber-50);
+  --amsterdam-validation-invalid: var(--amsterdam-color-red-50);
+  --amsterdam-validation-valid: var(--amsterdam-color-green-30);
+  --amsterdam-feedback-error: var(--amsterdam-color-red-50);
+}

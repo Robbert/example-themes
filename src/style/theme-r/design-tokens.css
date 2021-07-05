@@ -1,0 +1,71 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Jul 2021 08:09:35 GMT
+ */
+
+:root {
+  --rijkshuisstijl-typography-serif-fallback-font-family: "Times New Roman", serif;
+  --rijkshuisstijl-typography-sans-serif-fallback-font-family: "Calibri", "Verdana", "Arial", sans-serif;
+  --rijkshuisstijl-color-grijs-tint-7: hsl(0 0% 33%);
+  --rijkshuisstijl-color-grijs-tint-6: hsl(0 0% 41%);
+  --rijkshuisstijl-color-grijs-tint-5: hsl(0 0% 60%);
+  --rijkshuisstijl-color-grijs-tint-4: hsl(0 0% 71%);
+  --rijkshuisstijl-color-grijs-tint-3: hsl(0 0% 80%);
+  --rijkshuisstijl-color-grijs-tint-2: hsl(0 0% 90%);
+  --rijkshuisstijl-color-grijs-tint-1: hsl(0 0% 95%);
+  --rijkshuisstijl-color-lichtblauw-tint-2: hsl(198 62% 96%);
+  --rijkshuisstijl-color-lichtblauw-tint-1: hsl(200 66% 92%);
+  --rijkshuisstijl-color-lichtblauw-basis: hsl(200 65% 73%);
+  --rijkshuisstijl-color-hemelblauw-tint-2: hsl(204 65% 91%);
+  --rijkshuisstijl-color-hemelblauw-tint-1: hsl(203 64% 82%);
+  --rijkshuisstijl-color-hemelblauw-basis: hsl(203 100% 39%);
+  --rijkshuisstijl-color-donkerblauw-tint-2: hsl(207 63% 94%);
+  --rijkshuisstijl-color-donkerblauw-tint-1: hsl(208 57% 87%);
+  --rijkshuisstijl-color-donkerblauw-basis: hsl(200 99% 31%);
+  --rijkshuisstijl-color-mintgroen-tint-2: hsl(162 48% 95%);
+  --rijkshuisstijl-color-mintgroen-tint-1: hsl(162 49% 89%);
+  --rijkshuisstijl-color-mintgroen-basis: hsl(162 51% 64%);
+  --rijkshuisstijl-color-mosgroen-tint-2: hsl(60 31% 89%);
+  --rijkshuisstijl-color-mosgroen-tint-1: hsl(62 32% 77%);
+  --rijkshuisstijl-color-mosgroen-basis: hsl(62 100% 24%);
+  --rijkshuisstijl-color-groen-tint-2: hsl(100 33% 89%);
+  --rijkshuisstijl-color-groen-tint-1: hsl(99 34% 79%);
+  --rijkshuisstijl-color-groen-basis: hsl(98 84% 29%);
+  --rijkshuisstijl-color-donkergroen-tint-2: hsl(137 12% 89%);
+  --rijkshuisstijl-color-donkergroen-tint-1: hsl(140 13% 77%);
+  --rijkshuisstijl-color-donkergroen-basis: hsl(139 39% 25%);
+  --rijkshuisstijl-color-bruin-tint-2: hsl(46 40% 90%);
+  --rijkshuisstijl-color-bruin-tint-1: hsl(44 40% 79%);
+  --rijkshuisstijl-color-bruin-basis: hsl(45 87% 31%);
+  --rijkshuisstijl-color-donkerbruin-tint-2: hsl(13 16% 89%);
+  --rijkshuisstijl-color-donkerbruin-tint-1: hsl(9 17% 78%);
+  --rijkshuisstijl-color-donkerbruin-basis: hsl(11 45% 28%);
+  --rijkshuisstijl-color-geel-tint-2: hsl(55 94% 93%);
+  --rijkshuisstijl-color-geel-tint-1: hsl(54 94% 86%);
+  --rijkshuisstijl-color-geel-basis: hsl(53 95% 55%);
+  --rijkshuisstijl-color-donkergeel-tint-2: hsl(41 100% 93%);
+  --rijkshuisstijl-color-donkergeel-tint-1: hsl(42 100% 86%);
+  --rijkshuisstijl-color-donkergeel-basis: hsl(42 100% 54%);
+  --rijkshuisstijl-color-oranje-tint-2: hsl(30 81% 92%);
+  --rijkshuisstijl-color-oranje-tint-1: hsl(30 79% 83%);
+  --rijkshuisstijl-color-oranje-basis: hsl(30 100% 44%);
+  --rijkshuisstijl-color-rood-tint-2: hsl(4 70% 92%);
+  --rijkshuisstijl-color-rood-tint-1: hsl(4 68% 84%);
+  --rijkshuisstijl-color-rood-basis: hsl(4 75% 48%);
+  --rijkshuisstijl-color-roze-tint-2: hsl(321 78% 96%);
+  --rijkshuisstijl-color-roze-tint-1: hsl(321 74% 93%);
+  --rijkshuisstijl-color-roze-basis: hsl(322 76% 76%);
+  --rijkshuisstijl-color-robijnrood-tint-2: hsl(332 65% 91%);
+  --rijkshuisstijl-color-robijnrood-tint-1: hsl(332 66% 82%);
+  --rijkshuisstijl-color-robijnrood-basis: hsl(332 100% 40%);
+  --rijkshuisstijl-color-violet-tint-2: hsl(326 49% 90%);
+  --rijkshuisstijl-color-violet-tint-1: hsl(326 50% 80%);
+  --rijkshuisstijl-color-violet-basis: hsl(326 100% 33%);
+  --rijkshuisstijl-color-paars-tint-2: hsl(278 19% 88%);
+  --rijkshuisstijl-color-paars-tint-1: hsl(277 19% 77%);
+  --rijkshuisstijl-color-paars-basis: hsl(277 65% 23%);
+  --rijkshuisstijl-typography-serif-font-family: "OverheidSerif",
+    var(--rijkshuisstijl-typography-serif-fallback-font-family);
+  --rijkshuisstijl-typography-sans-serif-font-family: "OverheidSans",
+    var(--rijkshuisstijl-typography-sans-serif-fallback-font-family);
+}
