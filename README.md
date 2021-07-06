@@ -44,7 +44,8 @@ body {
 
 ## Eigen design tokens samenstellen
 
-1. Fork deze repository
-2. Pas de waardes aan in `design-token-template/`
-3. Voer dit script uit om `dist/index.css` te genereren: `npm run build`
-4. Maak automatisch `dist/index.css` elke keer als je `*.style-dictionary.json` wijzigt: `npm run watch`
+1. Clone deze repository
+2. `npm install`
+3. Pas de waardes aan in `design-token-template/`
+4. Voer dit script uit om `dist/index.css` te genereren: `npm run build`
+5. Maak automatisch `dist/index.css` elke keer als je `*.style-dictionary.json` wijzigt: `npm run watch`
