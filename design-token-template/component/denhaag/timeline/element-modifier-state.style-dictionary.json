@@ -1,0 +1,13 @@
+{
+  "denhaag": {
+    "timeline": {
+      "step-label": {
+        "completed": {
+          "hover": {
+            "color": {}
+          }
+        }
+      }
+    }
+  }
+}

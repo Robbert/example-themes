@@ -1,0 +1,28 @@
+{
+  "denhaag": {
+    "timeline": {
+      "step-collapse-icon": {
+        "size": {},
+        "padding": {}
+      },
+      "step-content": {
+        "color": {},
+        "margin": {}
+      },
+      "step-icon": {
+        "color": {},
+        "margin": {},
+        "padding": {},
+        "size": {}
+      },
+      "step-icon-text": {
+        "font-size": {}
+      },
+      "step": {
+        "outline-offset": {},
+        "outline": {},
+        "padding": {}
+      }
+    }
+  }
+}

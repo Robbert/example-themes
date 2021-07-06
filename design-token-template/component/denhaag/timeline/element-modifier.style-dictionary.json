@@ -1,0 +1,26 @@
+{
+  "denhaag": {
+    "timeline": {
+      "step-icon": {
+        "completed": {
+          "color": {}
+        },
+        "active": {
+          "color": {}
+        },
+        "disabled": {
+          "color": {}
+        }
+      },
+      "step-label": {
+        "active": {
+          "color": {},
+          "font-weight": {}
+        },
+        "disabled": {
+          "color": {}
+        }
+      }
+    }
+  }
+}

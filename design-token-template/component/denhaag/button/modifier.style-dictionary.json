@@ -1,0 +1,49 @@
+{
+  "denhaag": {
+    "button": {
+      "focus": {
+        "border-color": {},
+        "border-width": {},
+        "border-style": {}
+      },
+      "disabled": {
+        "color": {}
+      },
+      "primary-action": {
+        "background-color": {},
+        "color": {},
+        "hover": {
+          "background-color": {},
+          "color": {}
+        },
+        "disabled": {
+          "background-color": {},
+          "color": {}
+        }
+      },
+      "secondary-action": {
+        "background-color": {},
+        "color": {},
+        "border-color": {},
+        "hover": {
+          "background-color": {},
+          "border-color": {},
+          "color": {}
+        },
+        "disabled": {
+          "background-color": {},
+          "border-color": {},
+          "color": {}
+        }
+      },
+      "large": {
+        "padding-block": {},
+        "padding-inline": {}
+      },
+      "medium": {
+        "padding-block": {},
+        "padding-inline": {}
+      }
+    }
+  }
+}

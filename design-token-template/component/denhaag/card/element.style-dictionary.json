@@ -1,0 +1,50 @@
+{
+  "denhaag": {
+    "card": {
+      "case-paper": {
+        "color": {}
+      },
+      "actions": {
+        "padding-block-end": {},
+        "padding-block-start": {},
+        "padding-inline-end": {},
+        "padding-inline-start": {}
+      },
+      "arrow": {
+        "left": {},
+        "position": {},
+        "right": {}
+      },
+      "case": {
+        "border-width": {},
+        "color": {},
+        "height": {},
+        "padding-block-end": {},
+        "padding-block-start": {}
+      },
+      "wrapper": {
+        "padding": {},
+        "padding-block": {},
+        "padding-inline": {}
+      },
+      "subtitle": {
+        "font-color": {},
+        "font-size": {},
+        "font-weight": {},
+        "line-height": {},
+        "padding": {},
+        "padding-block": {},
+        "padding-inline": {}
+      },
+      "title": {
+        "font-color": {},
+        "font-size": {},
+        "font-weight": {},
+        "line-height": {},
+        "padding": {},
+        "padding-block": {},
+        "padding-inline": {}
+      }
+    }
+  }
+}

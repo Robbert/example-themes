@@ -1,0 +1,18 @@
+{
+  "denhaag": {
+    "list": {
+      "item": {
+        "padding-inline": {},
+        "padding-block": {},
+        "border-size": {}
+      },
+      "item-icon": {
+        "color": {}
+      },
+      "subheader": {
+        "font-weight": {},
+        "color": {}
+      }
+    }
+  }
+}

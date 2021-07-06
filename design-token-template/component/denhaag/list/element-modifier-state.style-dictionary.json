@@ -1,0 +1,28 @@
+{
+  "denhaag": {
+    "list": {
+      "item": {
+        "secondary-action": {
+          "color": {},
+          "right": {},
+          "padding": {}
+        },
+        "secondary-action": {
+          "focus": {
+            "color": {}
+          }
+        }
+      },
+      "item-text": {
+        "primary": {
+          "hover": {
+            "color": {}
+          },
+          "focus": {
+            "color": {}
+          }
+        }
+      }
+    }
+  }
+}
