@@ -1,0 +1,339 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Jul 2021 20:19:08 GMT
+ */
+
+:root {
+  --duo-viewport-scale-xxl-width: 1600px; /* For 'medewerkersschermen' only */
+  --duo-viewport-scale-xl-width: 1200px; /* Extra large screen / wide desktop */
+  --duo-viewport-scale-lg-width: 992px; /* Large screen / desktop */
+  --duo-viewport-scale-md-width: 768px; /* Medium screen / tablet */
+  --duo-viewport-scale-sm-width: 544px; /* Small screen / phone */
+  --duo-viewport-scale-xs-width: 0; /* Extra small screen / phone */
+  --duo-space-grid-text-padding: 3rem;
+  --duo-space-grid-gutter-width: 2rem;
+  --duo-space-scale-xxxl: 4rem;
+  --duo-space-scale-xxl: 3.2rem;
+  --duo-space-scale-xl: 2.4rem;
+  --duo-space-scale-l: 1.6rem;
+  --duo-space-scale-s: 0.8rem;
+  --duo-space-scale-xs: 0.4rem;
+  --duo-space-scale-xxs: 0.2rem;
+  --duo-space-default-margin: 1.2rem;
+  --duo-focus-outline-offset: 0.2rem;
+  --duo-focus-outline-size: 0.3rem;
+  --duo-animation-duration-scale-slow: 450ms;
+  --duo-animation-duration-scale-normal: 300ms;
+  --duo-animation-duration-scale-fast: 100ms;
+  --duo-typography-sans-serif-font-family: "RijksoverheidSans", Helvetica, Arial, sans-serif;
+  --duo-typography-scale-xxxs-font-size: 1.2rem;
+  --duo-typography-scale-xxs-font-size: 1.4rem;
+  --duo-typography-scale-xs-line-height: 1.8rem;
+  --duo-typography-scale-xs-font-size: 1.6rem;
+  --duo-typography-scale-s-line-height: 2.2rem;
+  --duo-typography-scale-s-font-size: 1.8rem;
+  --duo-typography-scale-m-line-height: 2.6rem;
+  --duo-typography-scale-m-font-size: 2rem;
+  --duo-typography-scale-l-line-height: 2.7rem;
+  --duo-typography-scale-l-font-size: 2.3rem;
+  --duo-typography-scale-xl-line-height: 3rem;
+  --duo-typography-scale-xl-font-size: 2.6rem;
+  --duo-typography-scale-xxl-line-height: 0.2rem;
+  --duo-typography-scale-xxl-font-size: 2.8rem;
+  --duo-typography-scale-xxxl-line-height: 5rem;
+  --duo-typography-scale-xxxl-font-size: 3.1rem;
+  --duo-typography-base-line-height: 24px;
+  --duo-typography-base-font-size: 18px;
+  --duo-color-invert-1: 1;
+  --duo-color-invert-0: 0;
+  --duo-color-brightness-01: 0.1;
+  --duo-color-brightness-0: 0;
+  --duo-color-focus-color-firefox: #212121;
+  --duo-color-focus-color: #5e9ed6;
+  --duo-color-primary-color-primary-70: #2a5d11;
+  --duo-color-primary-color-primary-50: #3c861b;
+  --duo-color-link-visited: #551a8b;
+  --duo-color-link-blue: #005ea5;
+  --duo-color-violet-50: #a90061;
+  --duo-color-violet-30: #e5b2cf;
+  --duo-color-violet-10: #f2d9e7;
+  --duo-color-roze-50: #f092cd;
+  --duo-color-roze-30: #fadef0;
+  --duo-color-roze-10: #fdeff8;
+  --duo-color-rood-50: #d52b1e;
+  --duo-color-rood-30: #f2bfbb;
+  --duo-color-rood-10: #f9dfdd;
+  --duo-color-robijnrood-50: #ca005d;
+  --duo-color-robijnrood-30: #efb2ce;
+  --duo-color-robijnrood-10: #f7d9e7;
+  --duo-color-paars-50: #42145f;
+  --duo-color-paars-30: #c6b8cf;
+  --duo-color-paars-10: #e3dce7;
+  --duo-color-oranje-50: #e17000;
+  --duo-color-oranje-30: #f6d4b2;
+  --duo-color-oranje-10: #fbead9;
+  --duo-color-mosgroen-50: #767b00;
+  --duo-color-mosgroen-30: #d6d7b2;
+  --duo-color-mosgroen-10: #ebebd9;
+  --duo-color-mintgroen-50: #76d2b6;
+  --duo-color-mintgroen-30: #d6f1e9;
+  --duo-color-mintgroen-10: #ebf8f4;
+  --duo-color-lichtblauw-50: #8fcae7;
+  --duo-color-lichtblauw-30: #ddeff8;
+  --duo-color-lichtblauw-10: #eef7fb;
+  --duo-color-hemelblauw-50: #007bc7;
+  --duo-color-hemelblauw-30: #b2d7ee;
+  --duo-color-hemelblauw-10: #d9ebf7;
+  --duo-color-groen-50: #39870c;
+  --duo-color-groen-30: #c3dbb6;
+  --duo-color-groen-10: #e1eddb;
+  --duo-color-geel-50: #f9e11e;
+  --duo-color-geel-30: #fdf6bb;
+  --duo-color-geel-10: #fefbdd;
+  --duo-color-donkergroen-50: #275937;
+  --duo-color-donkergroen-30: #becdc3;
+  --duo-color-donkergroen-10: #dfe6e1;
+  --duo-color-donkergeel-50: #ffb612;
+  --duo-color-donkergeel-30: #ffe9b7;
+  --duo-color-donkergeel-10: #fff4dc;
+  --duo-color-donkerbruin-50: #673327;
+  --duo-color-donkerbruin-30: #d1c1be;
+  --duo-color-donkerbruin-10: #e8e1df;
+  --duo-color-donkerblauw-50: #01689b;
+  --duo-color-donkerblauw-30: #cce0f1;
+  --duo-color-donkerblauw-10: #e5f0f9;
+  --duo-color-bruin-50: #94710a;
+  --duo-color-bruin-30: #dfd4b5;
+  --duo-color-bruin-10: #efeada;
+  --duo-color-neutral-100: #000000;
+  --duo-color-neutral-95: #2b2b2b;
+  --duo-color-neutral-90: #333333;
+  --duo-color-neutral-85: #535353;
+  --duo-color-neutral-80: #565656;
+  --duo-color-neutral-75: #666666;
+  --duo-color-neutral-70: #696969;
+  --duo-color-neutral-65: #808080;
+  --duo-color-neutral-60: #8f8e8b;
+  --duo-color-neutral-55: #a4a4a4;
+  --duo-color-neutral-50: #999999;
+  --duo-color-neutral-45: #b4b4b4;
+  --duo-color-neutral-40: #cccccc;
+  --duo-color-neutral-35: #dedede;
+  --duo-color-neutral-30: #dbdbdb;
+  --duo-color-neutral-25: #e0e0dd;
+  --duo-color-neutral-20: #e6e6e6;
+  --duo-color-neutral-15: #ebebeb;
+  --duo-color-neutral-10: #f0f0f0;
+  --duo-color-neutral-5: #f3f3f3;
+  --duo-color-black: #000000;
+  --duo-color-white: #ffffff;
+  --utrecht-form-input-block-size: 4.8rem;
+  --utrecht-space-column-5xl: 80px;
+  --utrecht-space-column-4xl: 64px;
+  --utrecht-space-column-3xl: 48px;
+  --utrecht-space-column-2xl: 32px;
+  --utrecht-space-column-xl: 28px;
+  --utrecht-space-column-lg: 24px;
+  --utrecht-space-column-md: 16px;
+  --utrecht-space-column-sm: 12px;
+  --utrecht-space-column-xs: 8px;
+  --utrecht-space-column-2xs: 4px;
+  --utrecht-space-column-3xs: 2px;
+  --utrecht-space-column-4xs: 1px;
+  --utrecht-space-row-5xl: 80px;
+  --utrecht-space-row-4xl: 64px;
+  --utrecht-space-row-3xl: 48px;
+  --utrecht-space-row-2xl: 32px;
+  --utrecht-space-row-xl: 28px;
+  --utrecht-space-row-lg: 24px;
+  --utrecht-space-row-md: 16px;
+  --utrecht-space-row-sm: 12px;
+  --utrecht-space-row-xs: 8px;
+  --utrecht-space-row-2xs: 4px;
+  --utrecht-space-row-3xs: 2px;
+  --utrecht-space-row-4xs: 1px;
+  --utrecht-space-inline-3xl: 3ch;
+  --utrecht-space-inline-2xl: 2ch;
+  --utrecht-space-inline-xl: 1.75ch;
+  --utrecht-space-inline-lg: 1.5ch;
+  --utrecht-space-inline-md: 1ch;
+  --utrecht-space-inline-sm: 0.75ch;
+  --utrecht-space-inline-xs: 0.5ch;
+  --utrecht-space-inline-2xs: 0.25ch;
+  --utrecht-space-inline-3xs: 0.125ch;
+  --utrecht-space-block-5xl: 80px;
+  --utrecht-space-block-4xl: 64px;
+  --utrecht-space-block-3xl: 48px;
+  --utrecht-space-block-2xl: 32px;
+  --utrecht-space-block-xl: 28px;
+  --utrecht-space-block-lg: 24px;
+  --utrecht-space-block-md: 16px;
+  --utrecht-space-block-sm: 12px;
+  --utrecht-space-block-xs: 8px;
+  --utrecht-space-block-2xs: 4px;
+  --utrecht-space-block-3xs: 2px;
+  --utrecht-border-width-md: 2px;
+  --utrecht-border-width-sm: 1px;
+  --utrecht-typography-weight-scale-normal-font-weight: normal;
+  --utrecht-typography-weight-scale-bold-font-weight: bold;
+  --utrecht-typography-scale-3xl-font-size: 2rem; /* 36px */
+  --utrecht-typography-scale-2xl-font-size: 1.5rem; /* 24px */
+  --utrecht-typography-scale-xl-font-size: 1.4rem; /* 22,4px */
+  --utrecht-typography-scale-lg-font-size: 1.25rem; /* 20px */
+  --utrecht-typography-scale-md-font-size: 1rem; /* 16px */
+  --utrecht-typography-scale-sm-font-size: 0.9rem; /* 14,4px */
+  --utrecht-typography-scale-xs-font-size: 0.7rem; /* 11,2px */
+  --utrecht-typography-scale-2xs-font-size: 0.5rem; /* 8px */
+  --utrecht-typography-sans-serif-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana,
+    sans-serif;
+  --utrecht-color-black: hsl(0 0% 0%);
+  --utrecht-color-white: hsl(0 0% 100%);
+  --utrecht-color-green-90: hsl(90 30% 90%); /* Achtergrond licht groen */
+  --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
+  --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
+  --utrecht-color-green-40: hsl(90 30% 40%); /* donker groen */
+  --utrecht-color-yellow-80: hsl(48 100% 80%); /* spotlight en uitgelicht */
+  --utrecht-color-yellow-60: hsl(48 100% 60%); /* selecteer geel */
+  --utrecht-color-yellow-50: hsl(48 100% 50%); /* basis geel #ffcc00 */
+  --utrecht-color-yellow-40: hsl(48 100% 40%); /* donker geel */
+  --utrecht-color-grey-90: hsl(0 0% 90%); /* grijs variant voor achtergrond templates #f2f2f2 */
+  --utrecht-color-grey-80: hsl(0 0% 80%); /* grijs variant voor achtergrond content #e5e5e5 */
+  --utrecht-color-grey-40: hsl(0 0% 40%); /* basis grijs #727272 */
+  --utrecht-color-grey-30: hsl(0 0% 30%); /* border grijs #888 */
+  --utrecht-color-blue-90: hsl(211 60% 90%); /* ijsblauw variant achtergrond, spotlight en uitgelicht */
+  --utrecht-color-blue-80: hsl(211 60% 80%); /* licht blauw voor achtergrond */
+  --utrecht-color-blue-40: hsl(211 60% 40%); /* blauw variant bij hover/focus #3669a5 */
+  --utrecht-color-blue-35: hsl(211 60% 35%); /* basis link en knoppen CTA donkerblauw */
+  --utrecht-color-blue-30: hsl(211 60% 30%); /* basis link en knoppen CTA donkerblauw */
+  --utrecht-color-blue-20: hsl(211 60% 20%); /* basis donkerblauw (OS focus) */
+  --utrecht-color-red-40: hsl(0 100% 40%); /* basis rood #cc0000 */
+  --utrecht-color-red-30: hsl(0 100% 30%); /* hover rood */
+  --utrecht-color-red-20: hsl(0 100% 20%); /* donker rood */
+  --utrecht-textbox-font-weight: 700; /* FIXME: NEW */
+  --utrecht-textbox-disabled-font-weight: 400; /* FIXME: NEW */
+  --utrecht-textbox-disabled-background-color: #f0f0f0; /* FIXME: NEW */
+  --utrecht-textbox-padding-inline-start: 1rem;
+  --utrecht-textbox-padding-inline-end: 1rem;
+  --utrecht-textbox-padding-block-start: 0;
+  --utrecht-textbox-padding-block-end: 0;
+  --utrecht-textbox-max-width: 27rem;
+  --utrecht-textbox-border-width: 1px;
+  --utrecht-textbox-border-radius: 0;
+  --utrecht-link-text-decoration: none;
+  --utrecht-heading-font-weight: 700;
+  --utrecht-button-focus-transform-scale: 1.02;
+  --utrecht-button-border-radius: 0;
+  --utrecht-button-margin-inline-end: 0;
+  --utrecht-button-margin-inline-start: 0;
+  --utrecht-button-border-width: 0;
+  --duo-space-scale-m: var(--duo-space-default-margin);
+  --duo-color-grijs-20: var(--duo-color-neutral-100);
+  --duo-color-grijs-19: var(--duo-color-neutral-95);
+  --duo-color-grijs-18: var(--duo-color-neutral-90);
+  --duo-color-grijs-17: var(--duo-color-neutral-85);
+  --duo-color-grijs-16: var(--duo-color-neutral-80);
+  --duo-color-grijs-15: var(--duo-color-neutral-75);
+  --duo-color-grijs-14: var(--duo-color-neutral-70);
+  --duo-color-grijs-13: var(--duo-color-neutral-65);
+  --duo-color-grijs-12: var(--duo-color-neutral-60);
+  --duo-color-grijs-11: var(--duo-color-neutral-55);
+  --duo-color-grijs-10: var(--duo-color-neutral-50);
+  --duo-color-grijs-9: var(--duo-color-neutral-45);
+  --duo-color-grijs-8: var(--duo-color-neutral-40);
+  --duo-color-grijs-7: var(--duo-color-neutral-35);
+  --duo-color-grijs-6: var(--duo-color-neutral-30);
+  --duo-color-grijs-5: var(--duo-color-neutral-25);
+  --duo-color-grijs-4: var(--duo-color-neutral-20);
+  --duo-color-grijs-3: var(--duo-color-neutral-15);
+  --duo-color-grijs-2: var(--duo-color-neutral-10);
+  --duo-color-grijs-1: var(--duo-color-neutral-5);
+  --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
+  --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
+  --utrecht-form-input-focus-border-color: var(--utrecht-color-grey-80);
+  --utrecht-form-input-placeholder-color: var(--utrecht-color-grey-40);
+  --utrecht-focus-color: var(--utrecht-color-black);
+  --utrecht-focus-border-color: var(--utrecht-color-black);
+  --utrecht-focus-background-color: var(--utrecht-color-yellow-60);
+  --utrecht-feedback-invalid-color: var(--utrecht-color-red-40);
+  --utrecht-textbox-blocks-size: calc(
+    var(--utrecht-form-input-block-size) - 2px
+  ); /* FIXME: NEW /  (48px - 2 * 1px border = 4.6rem) / Use height instead of lineheight for non-webkit compatibility */
+  --utrecht-textbox-background-color: var(--duo-color-white); /* FIXME: NEW */
+  --utrecht-textbox-disabled-color: var(--duo-color-neutral-45);
+  --utrecht-textbox-font-size: var(--duo-typography-scale-xs-font-size);
+  --utrecht-textbox-color: var(--duo-color-neutral-95);
+  --utrecht-textbox-border-color: var(--duo-color-neutral-65);
+  --utrecht-textbox-border-bottom-width: var(--utrecht-textbox-border-width);
+  --utrecht-textarea-min-block-size: calc(2 * var(--utrecht-form-input-block-size));
+  --utrecht-textarea-padding-inline-start: var(--utrecht-textbox-padding-inline-start);
+  --utrecht-textarea-padding-inline-end: var(--utrecht-textbox-padding-inline-end);
+  --utrecht-textarea-padding-block-start: var(--utrecht-textbox-padding-block-start);
+  --utrecht-textarea-padding-block-end: var(--utrecht-textbox-padding-block-end);
+  --utrecht-textarea-max-width: var(--utrecht-textbox-max-width);
+  --utrecht-textarea-border-width: var(--utrecht-textbox-border-width);
+  --utrecht-textarea-border-radius: var(--utrecht-textbox-border-radius);
+  --utrecht-paragraph-lead-font-size: var(--utrecht-typography-scale-lg-font-size);
+  --utrecht-paragraph-margin-block-end: var(--duo-space-default-margin);
+  --utrecht-link-visited-color: var(--duo-color-link-visited);
+  --utrecht-link-hover-color: var(--duo-color-neutral-95);
+  --utrecht-link-active-color: var(--duo-color-violet-50);
+  --utrecht-link-color: var(--duo-color-link-blue);
+  --utrecht-heading-5-padding-block-end: var(--duo-space-scale-xxs);
+  --utrecht-heading-5-margin-block-end: var(--duo-space-scale-xs);
+  --utrecht-heading-5-font-size: var(--duo-typography-scale-xs-font-size);
+  --utrecht-heading-4-padding-block-end: var(--duo-space-scale-xxs);
+  --utrecht-heading-4-margin-block-end: var(--duo-space-scale-xs);
+  --utrecht-heading-4-font-size: var(--duo-typography-scale-s-font-size);
+  --utrecht-heading-3-padding-block-end: var(--duo-space-scale-xxs);
+  --utrecht-heading-3-margin-block-end: var(--duo-space-scale-xs);
+  --utrecht-heading-3-font-size: var(--duo-typography-scale-m-font-size);
+  --utrecht-heading-2-padding-block-end: var(--duo-space-scale-xxs);
+  --utrecht-heading-2-margin-block-end: var(--duo-space-scale-xs);
+  --utrecht-heading-2-font-size: var(--duo-typography-scale-l-font-size);
+  --utrecht-heading-1-padding-block-end: var(--duo-space-scale-xxs);
+  --utrecht-heading-1-margin-block-end: var(--duo-space-scale-xs);
+  --utrecht-heading-1-font-size: var(--duo-typography-scale-xl-font-size);
+  --utrecht-heading-padding-block-end: var(--duo-space-scale-xxs);
+  --utrecht-heading-margin-block-end: var(--duo-space-scale-xs);
+  --utrecht-heading-font-family: var(--duo-typography-sans-serif-font-family);
+  --utrecht-document-line-height: var(--duo-typography-base-line-height);
+  --utrecht-document-font-size: var(--duo-typography-base-font-size);
+  --utrecht-document-font-family: var(--duo-typography-sans-serif-font-family);
+  --utrecht-document-color: var(--duo-color-black);
+  --utrecht-document-background-color: var(--duo-color-neutral-15);
+  --utrecht-button-focus-border-width: var(--utrecht-border-width-md);
+  --utrecht-button-focus-border-color: var(--utrecht-color-blue-40);
+  --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
+  --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-35);
+  --utrecht-button-secondary-action-color: var(--utrecht-color-blue-35);
+  --utrecht-button-secondary-action-background-color: var(--utrecht-color-white);
+  --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-80);
+  --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-80);
+  --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-color-white);
+  --utrecht-button-secondary-action-hover-border-color: var(--utrecht-color-blue-40);
+  --utrecht-button-secondary-action-hover-color: var(--utrecht-color-blue-35);
+  --utrecht-button-secondary-action-hover-background-color: var(--utrecht-color-white);
+  --utrecht-button-font-family: var(--utrecht-typography-sans-serif-font-family);
+  --utrecht-button-primary-action-hover-color: var(--utrecht-color-white);
+  --utrecht-button-primary-action-hover-background-color: var(--utrecht-color-blue-40);
+  --utrecht-button-primary-action-color: var(--utrecht-color-white);
+  --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-35);
+  --utrecht-button-disabled-background-color: var(--utrecht-color-grey-90);
+  --utrecht-button-disabled-color: var(--utrecht-color-white);
+  --utrecht-button-padding-inline-end: var(--utrecht-space-inline-lg);
+  --utrecht-button-padding-inline-start: var(--utrecht-space-inline-lg);
+  --utrecht-button-padding-block-end: var(--utrecht-space-block-sm);
+  --utrecht-button-padding-block-start: var(--utrecht-space-block-sm);
+  --utrecht-button-margin-block-end: var(--utrecht-space-row-xs);
+  --utrecht-button-margin-block-start: var(--utrecht-space-row-xs);
+  --utrecht-button-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-feedback-invalid-border-color: var(--utrecht-feedback-invalid-color);
+  --utrecht-textbox-font-family: var(--utrecht-document-font-family);
+  --utrecht-textarea-font-size: var(--utrecht-textbox-font-size);
+  --utrecht-textarea-color: var(--utrecht-textbox-color);
+  --utrecht-textarea-border-color: var(--utrecht-textbox-border-color);
+  --utrecht-textarea-border-bottom-width: var(--utrecht-textbox-border-bottom-width);
+  --utrecht-textbox-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
+  --utrecht-textarea-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
+  --utrecht-textarea-font-family: var(--utrecht-textbox-font-family);
+}

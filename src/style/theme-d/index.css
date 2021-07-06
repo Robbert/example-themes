@@ -1,0 +1,7 @@
+@import url("./design-tokens.css");
+@import url("./font.css");
+
+:root {
+  --hackathon-theme-name: "Theme D";
+  --hackathon-theme-version: "1.0.0-alpha.0";
+}

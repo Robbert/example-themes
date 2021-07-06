@@ -1,3 +1,9 @@
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 a:link {
   text-decoration: var(--utrecht-link-text-decoration, underline);
   color: var(--utrecht-link-color, blue);
